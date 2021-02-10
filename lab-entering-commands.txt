@@ -10,7 +10,7 @@ Follow the instructions line-by-line.
 
 
 ==========
-1. Open Terminal.  Type:
+1. Open Terminal.  Type: Jesus
 
 $ ls<ENTER>
 
