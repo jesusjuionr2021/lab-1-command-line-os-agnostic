@@ -15,6 +15,9 @@ Follow the instructions line-by-line.
 $ ls<ENTER>
 
 Copy and paste the output of ls below.
+
+jesusporrasjr
+
 ----------
 Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
 
@@ -25,12 +28,18 @@ Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
 $ ls D<TAB>
 
 What happens?  Describe it below.
+
+It doesn't respond to the command. 
+
 ----------
 Desktop/    Documents/  Downloads/
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
+
+.bash_history   .bash_logout    .bashrc         .cache/         .config/        .profile        .vscode-server/ .wget-hsts      jesusporrasjr/ 
+
 ----------
 rdrgeerwtger yg erwy brg
 
@@ -39,7 +48,7 @@ rdrgeerwtger yg erwy brg
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 
-
+ls: cannot access 'D': No such file or directory
 
 ==========
 3.  Type:
@@ -47,6 +56,9 @@ rdrgeerwtger yg erwy brg
 $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
+
+ls: cannot access 'Documents': No such file or directory
+
 ----------
 
 
@@ -57,6 +69,9 @@ Copy and paste the first *two lines* of output below.
 $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
+
+ls: cannot access 'Documents': No such file or directory
+
 ----------
 
 
@@ -67,6 +82,9 @@ Copy and paste the first *two lines* of output below.
 <UP><ENTER>
 
 What command was repeated?
+
+$ ls -l Documents
+
 ----------
 
 
@@ -77,6 +95,9 @@ What command was repeated?
 <UP><UP><UP><DOWN><ENTER>
 
 What command was repeated?
+
+ls -l Documents
+
 ----------
 
 
@@ -87,6 +108,9 @@ What command was repeated?
 $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
+
+ls: cannot access '/b': No such file or directory
+
 ----------
 
 
@@ -97,36 +121,53 @@ What is the result of pressing tab?
 $ ls doesnotexist
 
 Copy and paste the output below.
+
+ls: cannot access 'doesnotexist': No such file or directory
+
 ----------
 
 
 
 ==========
 9.  What key do I press to go to the previous command?
+
+Up
+
 ----------
 
 
 
 ==========
 10.  Name two flags that we used in this exercise.
+
+N/A because of the error command and needed to review with the instructor
+
 ----------
 
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
+
+N/A beacuse of the error command and needed to review with the instructor
+
 ----------
 
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
+
+ls 
+
 ----------
 
 
 
 ==========
 13.  Name one argument that we passed to the command.
+
+N/A because of the error command and needed to review with the instructor
 ----------
 
 
@@ -137,6 +178,19 @@ Copy and paste the output below.
 $ foo<ENTER>
 
 Copy and paste the output below.
+
+Command 'foo' not found, did you mean:
+
+  command 'fio' from deb fio
+  command 'woo' from deb python-woo
+  command 'fog' from deb ruby-fog
+  command 'fop' from deb fop
+  command 'goo' from deb goo
+  command 'fgo' from deb fgo
+  command 'fox' from deb objcryst-fox
+
+Try: sudo apt install <deb name>
+
 ----------
 
 
@@ -147,6 +201,19 @@ Copy and paste the output below.
 <UP><ENTER>
 
 Copy and paste the output below.
+
+Command 'foo' not found, did you mean:
+
+  command 'fop' from deb fop
+  command 'fog' from deb ruby-fog
+  command 'fio' from deb fio
+  command 'goo' from deb goo
+  command 'fgo' from deb fgo
+  command 'fox' from deb objcryst-fox
+  command 'woo' from deb python-woo
+
+Try: sudo apt install <deb name>
+
 ----------
 
 
@@ -157,4 +224,7 @@ Copy and paste the output below.
 $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
+
+ls: cannot access 'Desktop': No such file or directory
+
 ----------
