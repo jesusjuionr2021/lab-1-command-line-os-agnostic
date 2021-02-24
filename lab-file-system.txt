@@ -30,7 +30,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
+/home/jesusjunior/mtec1003
 
 
 ==========
@@ -41,7 +41,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals
 
 
 ==========
@@ -52,7 +52,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals  food
 
 
 ==========
@@ -63,7 +63,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals  foo  food
 
 
 ==========
@@ -74,7 +74,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/home/jesusjunior/mtec1003/foo/bar/baz/qux
 
 
 ==========
@@ -85,7 +85,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/home/jesusjunior/mtec1003/foo/bar
 
 
 ==========
