@@ -16,10 +16,8 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 
-jesusporrasjr
-
 ----------
-Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
+Desktop  Documents  Music  Pictures  Videos  jesusporrasjr
 
 
 ==========
@@ -29,19 +27,15 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 
-It doesn't respond to the command. 
-
 ----------
-Desktop/    Documents/  Downloads/
+Desktop/   Documents/
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 
-.bash_history   .bash_logout    .bashrc         .cache/         .config/        .profile        .vscode-server/ .wget-hsts      jesusporrasjr/ 
-
 ----------
-rdrgeerwtger yg erwy brg
+Desktop/   Documents/
 
 
 ==========
@@ -57,10 +51,11 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 
-ls: cannot access 'Documents': No such file or directory
-
 ----------
-
+total 76
+-rw-r--r-- 1 jesusjunior jesusjunior 47104 Feb 23 18:30 Case_Document_7-1.doc
+-rw-r--r-- 1 jesusjunior jesusjunior 27160 Feb 23 18:30 Figure_7-4.pdf
+-rw-r--r-- 1 jesusjunior jesusjunior   448 Feb 23 18:30 sample-text-file.txt
 
 
 ==========
@@ -70,10 +65,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 
-ls: cannot access 'Documents': No such file or directory
-
 ----------
-
+.  ..  Case_Document_7-1.doc  Figure_7-4.pdf  sample-text-file.txt
 
 
 ==========
@@ -83,10 +76,8 @@ ls: cannot access 'Documents': No such file or directory
 
 What command was repeated?
 
-$ ls -l Documents
-
 ----------
-
+.  ..  Case_Document_7-1.doc  Figure_7-4.pdf  sample-text-file.txt
 
 
 ==========
@@ -96,10 +87,11 @@ $ ls -l Documents
 
 What command was repeated?
 
-ls -l Documents
-
 ----------
-
+total 76
+-rw-r--r-- 1 jesusjunior jesusjunior 47104 Feb 23 18:30 Case_Document_7-1.doc
+-rw-r--r-- 1 jesusjunior jesusjunior 27160 Feb 23 18:30 Figure_7-4.pdf
+-rw-r--r-- 1 jesusjunior jesusjunior   448 Feb 23 18:30 sample-text-file.txt
 
 
 ==========
@@ -109,10 +101,8 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 
-ls: cannot access '/b': No such file or directory
-
 ----------
-
+bash: /b: No such file or directory
 
 
 ==========
@@ -122,54 +112,43 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 
-ls: cannot access 'doesnotexist': No such file or directory
-
 ----------
-
+ls: cannot access 'doesnotexist': No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 
-Up
-
 ----------
-
+Up
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 
-N/A because of the error command and needed to review with the instructor
-
 ----------
-
+-a & -d
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 
-N/A beacuse of the error command and needed to review with the instructor
-
 ----------
-
+the <TAB> command auto completes a command or file name
 
 
 ==========
-12.  What was the main command that we used throughout this exercise?
-
-ls 
+12.  What was the main command that we used throughout this exercise? 
 
 ----------
-
+ls
 
 
 ==========
 13.  Name one argument that we passed to the command.
 
-N/A because of the error command and needed to review with the instructor
 ----------
-
+Desktop
 
 
 ==========
@@ -177,8 +156,7 @@ N/A because of the error command and needed to review with the instructor
 
 $ foo<ENTER>
 
-Copy and paste the output below.
-
+----------
 Command 'foo' not found, did you mean:
 
   command 'fio' from deb fio
@@ -190,9 +168,6 @@ Command 'foo' not found, did you mean:
   command 'fox' from deb objcryst-fox
 
 Try: sudo apt install <deb name>
-
-----------
-
 
 
 ==========
@@ -202,20 +177,18 @@ Try: sudo apt install <deb name>
 
 Copy and paste the output below.
 
+----------
 Command 'foo' not found, did you mean:
 
   command 'fop' from deb fop
   command 'fog' from deb ruby-fog
+  command 'woo' from deb python-woo
+  command 'fgo' from deb fgo
   command 'fio' from deb fio
   command 'goo' from deb goo
-  command 'fgo' from deb fgo
   command 'fox' from deb objcryst-fox
-  command 'woo' from deb python-woo
 
 Try: sudo apt install <deb name>
-
-----------
-
 
 
 ==========
@@ -225,6 +198,5 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 
-ls: cannot access 'Desktop': No such file or directory
-
 ----------
+.  ..
