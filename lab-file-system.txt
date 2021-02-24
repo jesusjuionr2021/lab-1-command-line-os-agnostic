@@ -96,7 +96,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/home/jesusjunior/mtec1003/foo/bar
 
  
 ==========
@@ -107,7 +107,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/home
 
 
 ==========
@@ -119,9 +119,11 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
-
-
+total 0
+drwxr-xr-x 1 jesusjunior jesusjunior 512 Feb 23 20:21 jesusjunior
+rmdir: failed to remove 'animals': No such file or directory
+total 0
+drwxr-xr-x 1 jesusjunior jesusjunior 512 Feb 23 20:21 jesusjunior
 ==========
 13. Type:
 
@@ -130,7 +132,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/home/jesusjunior
 
 
 ==========
@@ -152,7 +154,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/mnt
 
 
 ==========
@@ -163,7 +165,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/home/jesusjunior/mtec1003
 
 
 ==========
