@@ -143,7 +143,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/mnt
 
 
 ==========
@@ -171,7 +171,7 @@ Copy and paste the output into the space below.
 ==========
 16a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+mkdir
 
 
 ==========
@@ -194,7 +194,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+mkdir -p
 
 
 ==========
