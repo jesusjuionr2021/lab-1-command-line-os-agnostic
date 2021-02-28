@@ -202,7 +202,7 @@ mkdir -p
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir
 
 
 ==========
@@ -210,7 +210,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
+ls: cannot access 'Documents': No such file or directory
 
 
 ==========
@@ -222,7 +222,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+mkdir -p
 
 
 ==========
@@ -230,7 +230,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd /foo/bar/baz
 
 
 ==========
@@ -238,44 +238,45 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd .., cd ..
 
 ==========
 23. What command is used to delete empty directories?
 ----------
-
+rmdir
 
 
 ==========
 24. What command is used to print out your current working directory?
 ----------
-
+pwd
 
 
 ==========
 25. What flag do I pass to ls to print out all files?
 ----------
-
+pwd -a
 
 
 ==========
 26. What's the shortcut for home directory?
 ----------
-
+cd
 
 
 ==========
 27. What's a pathname?
 ----------
-
+location in the file system
 
 
 ==========
 28. What's a directory?
 ----------
-
+Folder the organizes files
 
 
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+paths express as starting from root
